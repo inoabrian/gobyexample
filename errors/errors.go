@@ -31,7 +31,7 @@ func f2(arg int) (int, error) {
 
 
 func main() {
-	for _, i := range []int{} {
+	for _, i := range []int{7,42} {
 		if r, e := f1(i); e != nil {
 			fmt.Println("f1 failed:", e)
 		} else {
